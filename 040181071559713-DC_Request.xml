@@ -1,0 +1,19 @@
+<soapenv:Body xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<p900:processRequestsAsDOM xmlns:p900="http://duckcreektech.com/EXAMPLEServices/">
+		<p900:requestDoc>
+			<pn861805163:server xmlns:pn861805163="http://www.allstate.com/product/persPkgPolicy/Rating/RateControl/v1">
+				<pn861805163:requests>
+					<pn861805163:Session.openRq password="admin" userName="admin"/>
+					<pn861805163:ManuScriptBroker.listRq>
+						<pn861805163:keys>
+							<pn861805163:key name="state" value="OH"/>
+							<pn861805163:key name="lob" value="Homeowners"/>
+							<pn861805163:key name="company" value="064"/>
+						</pn861805163:keys>
+					</pn861805163:ManuScriptBroker.listRq>
+					<pn861805163:Session.closeRq/>
+				</pn861805163:requests>
+			</pn861805163:server>
+		</p900:requestDoc>
+	</p900:processRequestsAsDOM>
+</soapenv:Body>
